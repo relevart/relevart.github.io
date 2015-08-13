@@ -1,2 +1,3 @@
 name: Meixuan Shi | relevart
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
