@@ -115,3 +115,4 @@ row2 | **middle** | *(2, 3)*
 > block quote 2
 
 $$\sum_{n=1}^\infty \frac{1}{n^2} = \frac{\pi^2}{6}$$
+
