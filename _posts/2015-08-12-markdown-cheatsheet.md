@@ -4,12 +4,12 @@ title: "Markdown Cheatsheet"
 date: 2015-08-12
 ---
 
-# Header1
-## Header2
-### Header3
-#### Header4
-##### Header5
-###### Header6
+# Header1  
+## Header2  
+### Header3  
+#### Header4  
+##### Header5  
+###### Header6  
 
 Header1  
 ======
@@ -56,14 +56,14 @@ __bold2__
 table_column1 | c2 | column3
 row2 | **middle** | *(2, 3)*
 ```
-table_column1 | c2 | column3
+table_column1 | c2 | column3  
 row2 | **middle** | *(2, 3)*
 
 ```
 > block quote 1
 > block quote 2
 ```
-> block quote 1
+> block quote 1  
 > block quote 2
 
 $$\sum_{n=1}^\infty \frac{1}{n^2} = \frac{\pi^2}{6}$$
