@@ -3,10 +3,17 @@ layout: default
 title: Meixuan Shi | Home
 ---
 <div class="blurb">
-	<h1>Hello, Visitor!</h1>
-        <p>You've stomped upon the place in which Max put random thoughts.</p>
-        <p>For a list of my blogs, here's <a href="http://meixuanshi.com/blogs">the portal</a>.</p>
-        <!--
-          TODO: add a few most recent blogs
-        -->
+  <h1>Hello, Visitor!</h1>
+  <p>You've stomped upon the place in which Max put random thoughts.</p>
+  <p>For a list of my blogs, here's <a href="http://meixuanshi.com/blogs">the portal</a>.</p>
+
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        {{ post.excerpt }}
+      </li>
+    {% endfor %}
+  </ul>
+
 </div><!-- /.blurb -->
