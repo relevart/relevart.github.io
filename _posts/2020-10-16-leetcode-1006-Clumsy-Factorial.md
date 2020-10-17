@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Leetcode: 1006. Clumsy Factorial
+title: "Leetcode: 1006. Clumsy Factorial"
 date: 2020-10-16
 ---
 
